@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="navbar bg-color-nav navbar-expand-lg  text-white ">
+        <div class="container position-relative">
+          <a class="navbar-brand text-white" href="#"><img src="logo.png" alt="logo"> Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse position-absolute end-0 navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ps-3 pe-3">
+                <a class="nav-link active text-white ps-3 pe-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                <a class="nav-link text-white ps-3 pe-3" href="#">News</a>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                <a class="nav-link text-white ps-3 pe-3" href="#">Live Camera</a>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                <a class="nav-link text-white ps-3 pe-3" href="#">photos</a>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                <a class="nav-link text-white ps-3 pe-3" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="main  ">
+        
+          <div class="container ">
+              <form class="form-search d-flex position-relative" role="search">
+                  <input class="search form-control me-2 bg-color-nav text-white" oninput="searchCounry(this.value)" type="search" placeholder="Find Your Location..." aria-label="Search">
+                  <button class="btn-search btn bg-color-hover position-absolute  " type="submit">Find</button>
+                </form>
+                <div class="cards mt-5 pb-5">
+                  <div class="row">
+                      <div class="col-lg-12 d-flex contt" id="contt">
+                          
+                      </div>
+                  </div>
+                </div>
+          </div>     
+
+      </section>
+
+      <footer class="bg-card-color ">
+        <div class="container ">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 mb-5">
+                    <form class="form-search d-flex  w-100 position-relative" role="search">
+                        <input class="search form-control me-2 bg-color-nav text-white" type="search" placeholder="enter your email to subscribe .." aria-label="Search">
+                        <button class="btn-search btn bg-color-hover position-absolute  " type="submit">Find</button>
+                    </form>
+                </div>
+                <div class="col-md-4 mt-5 mb-3">
+                    <div class="socail d-flex align-items-center justify-content-center">
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <p class="text-white pb-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+      
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+.color-hover{
+    color: #009AD8; 
+}
+.bg-color-hover{
+    background-color: #009AD8; 
+}
+.bg-color-nav{
+    background-color: #1E202B; 
+}
+.bg-card-color{
+    background-color: #323544 !important;
+}
+.bg-card-header-color{
+    background-color: #2D303D !important; 
+}
+.bg-card-header-center-color{
+    background-color: #222531 !important; 
+}
+.bg-card-center-color{
+    background-color: #262936 !important; 
+}
+.btn-search:hover{
+    background-color: #686868;
+}
+.navbar{
+    height: 110px !important;
+}
+.nav-link{
+    transition: .5s;
+}
+.navbar-toggler{
+    border-color: white;
+}
+.nav-link:hover{
+    color: #009AD8 !important; 
+    border-radius: 20px; 
+    border: 2px solid #009AD8;
+}
+.active{
+    color: #009AD8 !important; 
+    border-radius: 20px; 
+    border: 2px solid #009AD8;
+}
+
+.main{
+background-color: #535875;
+
+}
+
+.form-search{
+    padding-top: 90px !important;
+}
+.search{
+    border-color: #1E202B;
+    height: 60px;
+    border-radius: 35px;
+}
+.search:focus{
+    background-color: #1E202B !important;
+}
+.search::placeholder{
+    color: white;
+}
+.btn-search{
+    right: 20px;
+    color: white;
+    padding: 10px 30px;
+    bottom: 7px;
+    border-radius: 30px;
+}
+#how{
+    color: #adadad;
+}
+#degree{
+    font-size: 90px !important;
+    font-weight: 700;
+    color: white;
+}
+.fa-cloud{
+    font-size: 80px;
+    color: #70727C;
+    border-bottom: 5px solid #70727C ;
+}
+.fa-sun{
+    font-size: 40px;
+    padding: 15px 0px;
+    color: #d5d5d8;
+}
+#imgWeatherA{
+    width: 40%;
+}
+#locationA{
+    color: white;
+    font-size: 18px;
+}
+#degreeِِِِA{
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+@media (max-width:992px) {
+    #imgWeatherA{
+        width: 30%;
+        margin-left: 30px;
+    }
+}
+.celec{
+    display: flex;
+}
+#secDegree{
+    color: white;
+    font-size: 30px;
+}
+#secDegreeSm{
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+}
+.card{
+    height: 100%;
+}
+
+.contt{
+    flex-wrap: wrap !important;
+}
+
+@media (max-width:992px) {
+    .col-lg-4{
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .celec{
+        display: flex;
+        margin-left: 10px;
+    }
+    
+}
+
+.socail ul li i{
+    padding: 10px;
+    color: #009AD8;
+    font-size: 25px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.socail ul li i:hover{
+    background-color: #002e41;
+}
